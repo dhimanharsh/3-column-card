@@ -1,0 +1,167 @@
+
+
+.main{
+    height: 30rem;
+    width: 60%;
+   display: flex;
+    margin: 0 auto;
+    margin-top: 8%;
+    
+}
+#box1{
+    height: 100%;
+    width:33.5%;
+    background: hsl(31, 77%, 52%);
+    padding: 2em;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+}
+#box2{
+    height: 100%;
+    width:33.5%;
+    background:  hsl(184, 100%, 22%);
+    padding: 2em;
+    box-sizing: border-box;
+}
+#box3{
+    height: 100%;
+    width:33.5%;
+    background: hsl(179, 100%, 13%);
+    padding: 2em;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+h2{
+    color: white;
+    font-size: 2.3em;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    /* font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 500; */
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+#box1 button{
+    height: 3.5em;
+    width: 60%;
+   background: white;
+   border: none;
+   color: hsl(31, 77%, 52%);
+   border-radius: 500px;
+   position: relative;
+   top: 15%;
+   transition: all .4s;
+   font-family: "Lexend Deca", serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   
+}
+#box2 button{
+    height: 3.5em;
+    width: 60%;
+   background: white;
+   border: none;
+   color: hsl(184, 100%, 22%);
+   border-radius: 500px;
+   position: relative;
+   top: 15%;
+   transition: all .4s;
+   font-family: "Lexend Deca", serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+}
+#box3 button{
+    height: 3.5em;
+    width: 60%;
+   background: white;
+   border: none;
+   color: hsl(179, 100%, 13%);
+   border-radius: 500px;
+   position: relative;
+   top: 15%;
+   transition: all .4s;
+   font-family: "Lexend Deca", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+@media (min-width:375px) and (max-width:750px) {
+    .main{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #box1,#box2,#box3{
+        width: 80%;
+    }
+   
+}
+
+@media (min-width:751px) and (max-width:900px) {
+   
+    
+    .main{
+        display: block;
+        width: 90%;
+    }
+    #box1,#box2,#box3{
+        width: 80%;    
+    }
+    h2{
+        
+        font-size: 3.1em;}
+        
+    p{
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+    #box3 button{
+        width: 30%;
+    }
+    #box2 button{
+        width: 30%;
+    }
+    #box1 button{
+        width: 30%;
+    }
+}
+
+@media (min-width:901px) and (max-width:1300px) {
+    .main{
+        display: flex;
+        height: 33rem;
+        width: 90%;
+        border: 1px solid red;
+    }
+    #box1,#box2,#box3{
+        width: 80%;    
+    }
+    h2{
+        font-size: 3.1em;}  
+    p{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    #box3 button{
+        width: 60%;
+    }
+    #box2 button{
+        width: 60%;
+    }
+    #box1 button{
+        width: 60%;
+    }
+}
